@@ -16,15 +16,36 @@ body {
 .block__column {
     padding: 20px;
 }
-
-.counter {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    color: #FFF;
+.block__multiply {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
+.counter {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #356abf 33%, #6d0dbc 66%, #b828c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.counter__multi {
+    font-size: 50px;
+}
+#timer {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
 
+#game {
+    display: none;
+    color: white;
+}
 
 .button {
     text-decoration: none;
