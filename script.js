@@ -6,6 +6,7 @@ let i = 0;
 push.onclick = function () {
 
     document.querySelector('.counter').innerHTML = i++;
+    console.log("Hello Artem!");
 
 };
 
